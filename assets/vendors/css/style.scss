@@ -319,7 +319,7 @@ section {
   .container {
     position: relative;
     z-index: 20;
-    padding: 125px 15px;
+    padding: 100px 15px;
   }
   &.track_order {
     background-image: $url_1;
@@ -421,8 +421,6 @@ section {
   }
   .estimate-wrap {
     margin: -15px;
-    padding: 125px 0 0;
-    display: inline-block;
     .pic {
       padding-left: 30px;
       padding-top: 38px;
@@ -615,7 +613,7 @@ section {
     }
   }
   &.header {
-    overflow-x: hidden;
+    overflow: hidden;
     max-width: 100%;
     .header-bg {
       position: relative;
@@ -1439,6 +1437,9 @@ video {
       height: auto;
       h1 {
         margin-bottom: 30px;
+        line-height: 40px !important;
+        font-size: 28px !important;
+        margin-top: 25px;
       }
     }
     .container {
@@ -1568,7 +1569,7 @@ textarea {
   }
   .icon-wrap {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     i {
       font-size: 35px;
       color: $color_red_orange_approx;
@@ -1590,7 +1591,7 @@ textarea {
     }
   }
   .info p {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   &.centered .icon-wrap i {
     font-size: 45px;
@@ -1653,20 +1654,23 @@ textarea {
       width: 400px;
     }
     .white-wrap {
-      height: 300px;
+      height: 280px;
       top: 30%;
     }
     .white-box {
-      height: 300px;
+      height: 280px;
       width: 400px;
       padding: 15px;
+      .track-logo {
+        height: 105px !important;
+      }
     }
     .main-wrap {
       height: 300px;
       top: 30%;
       h1 {
-        line-height: 80px;
-        font-size: 60px;
+        line-height: 60px;
+        font-size: 40px;
       }
     }
     .play-area {
@@ -2200,7 +2204,7 @@ textarea {
   }
   .slider-area #image-slider {
     padding-top: 0;
-    li img.img-responsive {
+    li img.img-fluid {
       width: 100%;
     }
   }

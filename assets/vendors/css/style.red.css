@@ -2079,7 +2079,7 @@ section.meet_team {
   color: #ffffff;
 }
 
-.mission .slider-area #image-slider li img.img-responsive {
+.mission .slider-area #image-slider li img.img-fluid {
   width: 100%;
 }
 
